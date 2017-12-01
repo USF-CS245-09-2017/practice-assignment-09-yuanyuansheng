@@ -8,7 +8,6 @@ public interface Graph {
 
 	// These functions have been added to P9.
 	public void addEdge(int v1, int v2, int weight);
-	public void readGraph(String filename);
 	public int getEdge(int v1, int v2);
 	public int createSpanningTree();
 
